@@ -369,6 +369,7 @@ html, body {
   font-size: 18px;
   color: #2C4058;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .main {
@@ -763,7 +764,7 @@ html, body {
 }
 
 .contacts {
-  width: 770px;
+  width: 100vw;
   background: #FFFFFF;
   position: absolute;
   left: 50%;
