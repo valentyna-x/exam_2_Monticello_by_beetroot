@@ -100,7 +100,7 @@
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    top: 30%;
+    top: 80%;
   }
 }
 @media screen and (max-width: 768px) {

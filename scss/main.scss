@@ -255,8 +255,8 @@ html, body {
     }
 }
 
-.project__image_blue,
-.project__image_purple {
+.project__image_left,
+.project__image_right {
     position: relative;
 }
 
@@ -273,7 +273,7 @@ html, body {
     width: 100%;
 }
 
-.project__image_blue::before {
+.project__image_left::before {
     content: '';
     display: block;
     height: 100%;
@@ -285,7 +285,7 @@ html, body {
     z-index: -1;
 }
 
-.project__image_purple::after {
+.project__image_right::after {
     content: '';
     display: block;
     height: 100%;
@@ -632,12 +632,12 @@ html, body {
             width: 100%;
         }
 
-        .project__image_blue::before {
+        .project__image_left::before {
             top: -50px;
             left: -150px;
         }
 
-        .project__image_purple::after {
+        .project__image_right::after {
             top: -50px;
             right: -150px;
         }
@@ -680,11 +680,11 @@ html, body {
     .projects {
         padding: 100px;
 
-        & .project__image_blue::before {
+        & .project__image_left::before {
             left: -55px;
         }
 
-        & .project__image_purple::after {
+        & .project__image_right::after {
             right: -55px;
         }
     }
@@ -728,11 +728,11 @@ html, body {
     .projects {
         padding: 70px;
 
-        & .project__image_blue::before {
+        & .project__image_left::before {
             left: -30px;
         }
 
-        & .project__image_purple::after {
+        & .project__image_right::after {
             right: -30px;
         }
     }
